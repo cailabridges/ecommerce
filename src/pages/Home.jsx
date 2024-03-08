@@ -12,13 +12,17 @@ const Home = () => {
     <div>
       <Announcement />
       <Navbar />
-      <Slider />
-      <Categories />
-      <Products/>
-      <Newsletter/>
-      <Footer/>
     </div>
   );
 };
 
 export default Home;
+
+{
+  /* <Announcement />
+      <Slider />
+      <Categories />
+      <Products/>
+      <Newsletter/>
+      <Footer/>  */
+}
