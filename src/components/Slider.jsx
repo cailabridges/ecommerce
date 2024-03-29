@@ -54,11 +54,12 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
   height: 80%;
+  margin-left: 100px;
 `;
 
 const InfoContainer = styled.div`
   flex: 1;
-  padding: 50px;
+  padding: 50px 70px 50px 0;
 `;
 
 const Title = styled.h1`
