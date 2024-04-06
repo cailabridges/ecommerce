@@ -16,17 +16,9 @@ const Home = () => {
       <Categories />
       <Products />
       <Newsletter />
+      <Footer />
     </div>
   );
 };
 
 export default Home;
-
-{
-  /* <Announcement />
-      <Slider />
-      <Categories />
-      <Products/>
-      <Newsletter/>
-      <Footer/>  */
-}

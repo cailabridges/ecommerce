@@ -7,7 +7,6 @@ import Home from "./pages/Home";
 
 const App = () => {
   return <Home />;
-  // return <div>Hello World!</div>;
 };
 
 export default App;
