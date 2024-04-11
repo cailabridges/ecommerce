@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {mobile} from "../responsive";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
   width: 100vw;
@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://i.ibb.co/ZLQT66f/good-looking-short-haired-woman-posing-with-peace-sign-red-wall.jpg")
       center;
   background-size: cover;
   display: flex;
@@ -26,6 +26,7 @@ const Wrapper = styled.div`
 const Title = styled.h1`
   font-size: 24px;
   font-weight: 300;
+  text-align: center;
 `;
 
 const Form = styled.form`
@@ -47,7 +48,7 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin: 10px auto;
 `;
 
 const Link = styled.a`
@@ -55,6 +56,8 @@ const Link = styled.a`
   font-size: 12px;
   text-decoration: underline;
   cursor: pointer;
+  display: block;
+  text-align: center;
 `;
 
 const Login = () => {
